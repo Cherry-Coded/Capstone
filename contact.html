@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <script defer src="main.js"></script>
+</head>
+
+<div class="top">
+  <div class="background-image"></div>
+  <div class="banner">
+    <img src="https://oceanconservancy.org/wp-content/themes/oco-wp/images/oc-footer-logo.svg" alt="Ocean Conservancy Logo">
+    <ul id="menu">
+      <li><a class="amenu" href="index.html">Home</a></li>
+      <li><a class="amenu" href="about.html">About Us</a></li>
+      <li><a class="amenu" href="contact.html">Contact</a></li>
+      <li><a class="amenu" id="donate-button" href="donate.html">Donate</a></li>
+    </ul>
+  </div>
+</div>
+
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<body>
+
+  <div id="form">
+    <div class="fish" id="fish"></div>
+    <div class="fish" id="fish2"></div>
+    <div class="fish" id="fish3"></div>
+    <div class="contact">
+      <span class="message">
+        <form id="waterform" name="contactForm" onsubmit="return validateForm()" action="/examples/actions/confirmation.php" method="post">
+          <div class="formgroup" id="name-form">
+            <p class="form">Your Name:</p>
+            <input type="text" id="name" name="name" placeholder="Your Name" />
+            <div class="error" id="nameErr"></div>
+          </div>
+          <div class="formgroup" id="email-form">
+            <p class="form">Your Email:</p>
+            <input type="email" id="email" name="email" placeholder="Your Email" />
+            <div class="error" id="emailErr"></div>
+          </div>
+          <div class="formgroup" id="message-form">
+            <p class="form">Your Message</p>
+            <textarea rows="4" cols="50" id="textarea" name="message"></textarea>
+            <div class="error" id="messageErr"></div>
+            <button type="submit">Send Email</button>
+          </div>
+        </form>
+      </span>
+    </div>
+
+    <br id="space" />
+
+    <div class="social item">
+      <img class="socialmedia" src="https://websitegrads.com/images/websitegrads/services-social-media-marketing.png">
+
+      <div class="nav-items items1">
+        <a href="https://www.facebook.com/oceanconservancy/" target="_blank"><i class='fa fa-facebook-square' style="font-size: 50px;"></i></a>
+      </div>
+      <div class="nav-items items2">
+        <a href="https://twitter.com/ourocean" target="_blank"><i class="fa fa-twitter" style="font-size: 50px;"></i></a>
+      </div>
+      <div class="nav-items items3">
+        <a href="https://www.linkedin.com/company/ocean-conservancy/" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 50px;"></i></a>
+      </div>
+      <div class="nav-items items4">
+        <a href="https://www.instagram.com/oceanconservancy/" target="_blank"><i class="fa fa-instagram" style="font-size: 50px;"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="update">
+    <h2>Sea the Difference: Get Involved with Ocean Updates</h2>
+    <form id="currentform" name="currentForm" onsubmit="return validateEForm()" action="/examples/actions/confirmation.php" method="post">
+      <input id="eupdate" type="email" name="subemail" placeholder="Seas the Day: Get Ocean Action Emails NOW - Submit Your Email Here!" />
+      <div class="error" id="subemailErr"></div>
+      <button type="submit" id="subscribe">Ride On!</button>
+    </form>
+    <hr>
+  </div>
+
+</body>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+
+      <div class="container footer-menu">
+        <div class="f-menu">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Terms of use</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Privacy policy</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Cookies</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Help</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">FAQs</a>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+</footer>
+
+</html>
