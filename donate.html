@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Ocean Conservancy Today</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="donation-page">
+    <div class="header">
+      <h1>Donate Today to Ocean Conservancy</h1>
+      <p>Make Waves of Change: Donate Now to Safeguard Our Precious Oceans!</p>
+      <p>Our ocean unifies our world like nothing else...</p>
+    </div>
+    
+    <div class="donation-options">
+      <h2>Choose Your Donation Amount</h2>
+      <ul>
+        <li><input type="radio" name="amount" value="10" id="amount-10"/>10</li>
+       
+         <li><input type="radio" name="amount" value="50" id="amount-50" />50</li>
+         <li><input type="radio" name="amount" value="100" id="amount-100" />100</li>
+        <li>
+      <input type="text" id="other-amount" placeholder="Other" />
+    </li>
+  </ul>
+    </div>
+    
+    <div class="personal-info-form">
+      <h2>Personal Information</h2>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name*:</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="last-name">Last Name*:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email*:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+            
+        <div class="form-group">
+          <label for="mobile-phone">Mobile Phone:</label>
+          <input type="tel" id="mobile-phone" name="mobile-phone">
+        </div>
+        
+        <div class="form-group">
+          <label for="country">Country*:</label>
+          <input type="text" id="country" name="country" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="street-address">Street Address:</label>
+          <input type="text" id="street-address" name="street-address" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+        </div>
+        
+        <div class="form-group">
+  <label for="state">State*:</label>
+  <select id="state" name="state" required>
+    <option value="">Select State</option>
+    <option value="AL">Alabama</option>
+    <option value="AK">Alaska</option>
+    <option value="AZ">Arizona</option>
+    <option value="AR">Arkansas</option>
+    <option value="CA">California</option>
+    <option value="CO">Colorado</option>
+    <option value="CT">Connecticut</option>
+    <option value="DE">Delaware</option>
+    <option value="FL">Florida</option>
+    <option value="GA">Georgia</option>
+    <option value="HI">Hawaii</option>
+    <option value="ID">Idaho</option>
+    <option value="IL">Illinois</option>
+    <option value="IN">Indiana</option>
+    <option value="IA">Iowa</option>
+    <option value="KS">Kansas</option>
+    <option value="KY">Kentucky</option>
+    <option value="LA">Louisiana</option>
+    <option value="ME">Maine</option>
+    <option value="MD">Maryland</option>
+    <option value="MA">Massachusetts</option>
+    <option value="MI">Michigan</option>
+    <option value="MN">Minnesota</option>
+    <option value="MS">Mississippi</option>
+    <option value="MO">Missouri</option>
+    <option value="MT">Montana</option>
+    <option value="NE">Nebraska</option>
+    <option value="NV">Nevada</option>
+    <option value="NH">New Hampshire</option>
+    <option value="NJ">New Jersey</option>
+    <option value="NM">New Mexico</option>
+    <option value="NY">New York</option>
+    <option value="NC">North Carolina</option>
+    <option value="ND">North Dakota</option>
+    <option value="OH">Ohio</option>
+    <option value="OK">Oklahoma</option>
+    <option value="OR">Oregon</option>
+    <option value="PA">Pennsylvania</option>
+    <option value="RI">Rhode Island</option>
+    <option value="SC">South Carolina</option>
+    <option value="SD">South Dakota</option>
+    <option value="TN">Tennessee</option>
+    <option value="TX">Texas</option>
+    <option value="UT">Utah</option>
+    <option value="VT">Vermont</option>
+    <option value="VA">Virginia</option>
+    <option value="WA">Washington</option>
+    <option value="WV">West Virginia</option>
+    <option value="WI">Wisconsin</option>
+    <option value="WY">Wyoming</option>
+  </select>
+</div>
+
+        
+        <div class="form-group">
+          <label for="postal-code">Postal Code:</label>
+          <input type="text" id="postal-code" name="postal-code" required>
+        </div>
+        
+        <label for="email-consent">Email Consent*:</label>
+        <div class="form-group">
+          <label>
+            <input type="checkbox" id="email-consent" name="email-consent"> Yes, I'm interested in receiving occasional emails from Ocean Conservancy..
+          </label>
+        </div>
+        
+        <label for="sms-consent">SMS Consent*:</label>
+        <div class="form-group">
+          <label>
+            <input type="checkbox" id="sms-consent" name="sms-consent"> Yes,  I'm open to receiving periodic SMS updates from Ocean Conservancy.
+          </label>
+        </div>
+          
+    <div class="payment-info-form">
+      <h2>Payment Information</h2>
+      <form>
+        <div class="form-group">
+  <label for="payment-method">Payment Method:</label>
+  <p>
+    <a href="https://www.paypal.com">
+      <i class="fab fa-paypal"></i> PayPal
+    </a> | 
+    <a href="https://www.venmo.com">
+      <i class="fab fa-venmo"></i> Venmo
+    </a>
+  </p>
+</div>
+        
+        <div class="form-group">
+          <h3>Or enter manually</h3>
+  <div class="form-group">
+    <label for="credit-card-number">Credit Card Number*:</label>
+    <input type="password" id="credit-card-number" name="credit-card-number" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="expiration-month">Credit Card Expiration*:</label>
+    <select id="expiration-month" name="expiration-month" required>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="expiration-year">Year*:</label>
+          <select id="expiration-year" name="expiration-year" required>
+            <option value="">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            <option value="2032">2032</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="cvv">CVV*:</label>
+          <input type="text" id="cvv" name="cvv" required>
+        </div>
+        
+        <button class="submit-button" type="submit">Donate</button>
+      </form>
+    </div>
+   </div>
+  </body>
+</html>
