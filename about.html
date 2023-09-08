@@ -1,146 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Ocean Conservation</title>
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Ocean Conservation</title>
+</head>
+
 <body>
-    <header>
-      <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
-      <div class="top">
-  <div class="background-image"></div>
-  <div class="banner">
-    <img src="https://oceanconservancy.org/wp-content/themes/oco-wp/images/oc-footer-logo.svg" alt="Ocean Conservancy Logo">
-    </header>
-   <div class="page-banner">
-        <h1>About Us</h1>
-        <h2>Who are we and what are we doing?</h2>
-    </div>
-     <div class="second-nav">
-        <nav>
-            <ul>
-                <li><a href="#our-why">Our Why</a></li>
-                <li><a href="#our-mission">Our Mission</a></li>
-                <li><a href="#our-partners">Our Partners</a></li>
-            </ul>
-        </nav>
-    </div>
-    <section class="about-section" id="our-why">
-        <h1>Our Why</h1>
-        <h2>For the Love of the Ocean</h2>
-        <p><img src="https://previews.dropbox.com/p/thumb/ACC5As7m-Ph9LeexfDznKTFvvHbE1bIOzqf466M59aSrOOq-3FrWMma-Qh7OPs9nDnZ-pFjDWgZcIs5aXq_Rvg6ERsJEBsgcqstQphJ0ZMzCTYAuKZTLujBK0yyybuldNQyZbfeVlHLUZ0Fj84ZJ-o8Cnz2vNAgO53JHYMSM9DabJPe_W4Gm-YaufL5qoRO4KAw_2XKtmG1DQi55icViyek8OMnhNHdW-kaj9YNSlWX8OYeVsfkM43G-Oq44uJOs2r_i9idWkzbaV7Q82GwQkN5mISrOSLyNxF-gv4LRB3n8HJkTmecZHChVvXo381JVZONM9U4E1IjF8bgCurbJ9D1K/p.jpeg" alt="oceanatsunset" width="750px" height="300px" justify-ccontent: left; ><span style="vertical-align:bottom"> We believe in the intrinsic value of our oceans and their critical role in sustaining life on Earth. By protecting and restoring marine ecosystems, we ensure a thriving planet for current and future generations. Our commitment to ocean conservation stems from the understanding that the well-being of humanity is deeply intertwined with the health of our oceans.</p>
-    </section>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+    </nav>
+    <div class="top">
+      <div class="background-image"></div>
+      <div class="banner">
+        <img src="https://oceanconservancy.org/wp-content/themes/oco-wp/images/oc-footer-logo.svg" alt="Ocean Conservancy Logo">
+  </header>
+  <div class="page-banner">
+    <h1>About Us</h1>
+    <h2>Who are we and what are we doing?</h2>
+  </div>
+  <div class="second-nav">
+    <nav>
+      <ul>
+        <li><a href="#our-why">Our Why</a></li>
+        <li><a href="#our-mission">Our Mission</a></li>
+        <li><a href="#our-partners">Our Partners</a></li>
+      </ul>
+    </nav>
+  </div>
+  <section class="about-section" id="our-why">
+    <h1>Our Why</h1>
+    <h2>For the Love of the Ocean</h2>
+    <p><img src="https://i.ibb.co/d4Gtxzn/img-2514-720.jpg" alt="oceanatsunset" width="750px" height="300px" justify-ccontent: left;><span style="vertical-align:bottom"> We believe in the intrinsic value of our oceans and their critical role in sustaining life on Earth. By protecting and restoring marine ecosystems, we ensure a thriving planet for current and future generations. Our commitment to ocean conservation stems from the understanding that the well-being of humanity is deeply intertwined with the health of our oceans.</p>
+  </section>
   <section class="about-section" id="our-mission">
-        <h1>Our Mission</h1>
-        <h2>To allow all creatures to flourish</h2>
+    <h1>Our Mission</h1>
+    <h2>To allow all creatures to flourish</h2>
     <iframe src="https://drive.google.com/file/d/1cz_GpLxi9wLxQlrmcSynwOHYHdtOe3g1/preview" width="700" height="500" allow="autoplay"></iframe>
-        <p>Our mission is to safeguard and restore the world's oceans for present and future generations. Through collaborative efforts in research, education, and advocacy, we strive to preserve marine ecosystems, combat pollution, promote sustainable practices, and inspire a global commitment to the health and vitality of our oceans. We promote our mission by sharing real stories, giving voice to the voiceless, making small changes to our daily habits, and donating time and money when we can.</p>
-                                <p>Does our mission align with your values?</p>
-                                
-                                 <form id="mission-form">
-        <label for="align-yes">Yes</label>
-        <input type="radio" id="align-yes" name="alignment" value="yes">
-        <label for="align-no">No</label>
-        <input type="radio" id="align-no" name="alignment" value="no">
-        <button type="submit">Submit</button>
+    <p>Our mission is to safeguard and restore the world's oceans for present and future generations. Through collaborative efforts in research, education, and advocacy, we strive to preserve marine ecosystems, combat pollution, promote sustainable practices, and inspire a global commitment to the health and vitality of our oceans. We promote our mission by sharing real stories, giving voice to the voiceless, making small changes to our daily habits, and donating time and money when we can.</p>
+    <p>Does our mission align with your values?</p>
+
+    <form id="mission-form" onsubmit="return handleSubmit()" action="confirmation.php" method="post">
+      <label for="align-yes">Yes</label>
+      <input type="radio" id="align-yes" name="alignment" value="yes">
+      <label for="align-no">No</label>
+      <input type="radio" id="align-no" name="alignment" value="no">
+      <button type="submit">Submit</button>
     </form>
-                  <script>
-        // JavaScript code goes here
-        // Function to handle form submission
-        function handleSubmit(event) {
-            event.preventDefault();
-            
-            // Get the selected value (yes or no)
-            const alignmentValue = document.querySelector('input[name="alignment"]:checked');
-
-            if (!alignmentValue) {
-                alert("Please select 'Yes' or 'No' to align with our mission.");
-                return;
-            }
-
-            // You can perform further actions based on the selected value here.
-            if (alignmentValue.value === "yes") {
-                alert("Thank you for wanting to help save our oceans!");
-            } else if (alignmentValue.value === "no") {
-                alert("We appreciate your honesty.");
-            }
-        }
-
-        // Add an event listener to the form for submission
-        const missionForm = document.getElementById("mission-form");
-        missionForm.addEventListener("submit", handleSubmit);
-    </script>                
-                                <p>Join the movement! Save our oceans.</p>
-    </section>
-    <div class="box-container">
+    <p>Join the movement! Save our oceans.</p>
+  </section>
+  <div class="box-container">
     <div class="box">
-        <h1>Real Stories</h1>
-        <p>"Through beach cleanups and community engagement, we've seen firsthand how our small efforts can make a big impact in keeping our oceans free from plastic waste." - Sarah, Environmental Activist.</p>
+      <h1>Real Stories</h1>
+      <p>"Through beach cleanups and community engagement, we've seen firsthand how our small efforts can make a big impact in keeping our oceans free from plastic waste." - Sarah, Environmental Activist.</p>
     </div>
-    
-    <div class="box">
-        <h1>Advocate</h1>
-        <p>Advocating for ocean conservancy is essential to raise awareness about the critical role oceans play in our lives and the urgent need to protect them.</p>
-    </div>
-    
-    <div class="box">
-        <h1>Change</h1>
-        <p>Making small changes in our daily habits is crucial for ocean conservancy, as these collective efforts can drive significant positive outcomes. Our individual actions, when multiplied, have the power to create a sustainable future for our oceans and the planet.</p>
-    </div>
-    
-    <div class="box">
-        <h1>Donate</h1>
-        <p>Join the movement for a healthier ocean by donating your resources and time today, and together, we can create a lasting impact on the preservation of our precious marine ecosystems.</p>
-    </div>
-</div>
 
-<div class="partners-container" id="our-partners">
+    <div class="box">
+      <h1>Advocate</h1>
+      <p>Advocating for ocean conservancy is essential to raise awareness about the critical role oceans play in our lives and the urgent need to protect them.</p>
+    </div>
+
+    <div class="box">
+      <h1>Change</h1>
+      <p>Making small changes in our daily habits is crucial for ocean conservancy, as these collective efforts can drive significant positive outcomes. Our individual actions, when multiplied, have the power to create a sustainable future for our oceans and the planet.</p>
+    </div>
+
+    <div class="box">
+      <h1>Donate</h1>
+      <p>Join the movement for a healthier ocean by donating your resources and time today, and together, we can create a lasting impact on the preservation of our precious marine ecosystems.</p>
+    </div>
+  </div>
+
+  <div class="partners-container" id="our-partners">
     <h2>Our Partners</h2>
     <div class="partner-row">
-        <div class="partner">
-            <img src="https://previews.dropbox.com/p/thumb/ACBgnA-at0hVtYLjFudW8B_Eq4rpnf0tAHkBaQDfkDd0xao5dfiT5l3G2dvZ0BPw0G58htDcA2Stgdud-1pMM5Xah9v7mRNEbOUQsQUfUxylbSFVxjPWABA2ztyFBOCAB0abZq0FgfH7xoUqerJzYtNV9US9S_41B49tBthc9sLxJWEdwo7J6Gxim4nF7gTfgsjHAYn_4bA8eFufsaoeUH6KzPQJiqkP-RGL3xm4q9BEBInNA57R1H8h05Dhrtu1rx9lWzLbKx6ZHlSu-dEs_OEF4PrCUlfp4FFR_WPBgLBWLt0uiNm7tAPvPNkXJzXmYrSB3kDAT7KRRIzgo5STP9qA/p.jpeg" alt="Angely">
-            <div class="partner-info">
-                <h2>Angely's Administration</h2>
-                <p class="title">CEO & Founder</p>
-                <p>Co-Founder of Ocean Conservary, an organization working on reducing plastic pollution in the oceans through education programs and collaborations with governments and businesses.</p>
-                <p>angelyadmin@yahoo.com</p>
-                <button class="button">Contact</button>
-            </div>
+      <div class="partner">
+        <img src="https://i.ibb.co/Phm3SHN/10e264c3-6ca4-4509-8dae-faea831d5f61-720.jpg" alt="Angely">
+        <div class="partner-info">
+          <h2>Angely's Administration</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Co-Founder of Ocean Conservary, an organization working on reducing plastic pollution in the oceans through education programs and collaborations with governments and businesses.</p>
+          <p>angelyadmin@yahoo.com</p>
+          <button class="button">Contact</button>
         </div>
+      </div>
 
-        <div class="partner">
-            <img src="https://previews.dropbox.com/p/thumb/ACBlqstYlsCeKQM4hv78Y9YpJHMtOcJRLFpvRsvSdyQ1m7aLMUOOaKOcmkeDcm-MNjtOy4fPbtZCAIP2MKYyrbwNFv5cagZpNlDDU_SH7e0lK0B_0an99-K98wqpMSJTVloyhMc4j_dfwep9I4Gh7BHS-6x-_tiQZtS8g3apsYtM4Tfy9jfLmwhQMvkyGqxJWGV7i8VMJP7g0WQwQomov90hTiHypnUbofV8qWu3lobpDb4R6__-6_A_fW0Y9cLvvF0A2jSDd4pdZ34JnPQ-Jvv8HdRFKRij_LYbL6OalonWJbpk28rU7WD9K_NdhpeU-6yEbWzdWYwtemXiULDzwBAm/p.jpeg" width="185px" height="0.2px" alt="Kenya">
-            <div class="partner-info">
-                <h2>Krafting with Kenya</h2>
-                <p class="title">Arts in Medicine Director</p>
-                <p>An ugly man inspired her to work endless hours in finding the cure for burnout. She finds trips to the ocean are a part of that cure.</p>
-                <p>kraftingwithk@aol.com</p>
-                <button class="button">Contact</button>
-            </div>
+      <div class="partner">
+        <img src="https://i.ibb.co/mFHxCgG/snapchat-1685046389-720.jpg" width="185px" height="0.2px" alt="Kenya">
+        <div class="partner-info">
+          <h2>Krafting with Kenya</h2>
+          <p class="title">Arts in Medicine Director</p>
+          <p>An ugly man inspired her to work endless hours in finding the cure for burnout. She finds trips to the ocean are a part of that cure.</p>
+          <p>kraftingwithk@aol.com</p>
+          <button class="button">Contact</button>
         </div>
+      </div>
 
-        <div class="partner">
-            <img src="https://previews.dropbox.com/p/thumb/ACDIaljnMNX_XHadaiDQ1VsupMr9tlZvfjEM6majvQB3DntPOkQW0aNlrozaub-TXrxPKFW76ZK7WnHEX2-Sl2CBRCpUtHzS59KbEqOh0nonteIIbluZObAOjBS5ZdBBMMZPDA7QCQVNOoJ9zyHVPdYffwt6m7ezVnkeCM1cx28WkRMfcZmfknOvbgDBIM6zgc8N38yqZcoRQ5FuipeLewjJFTUYsW2ANmc7Z_d_cIt-LiuUt0e0e3nNl_MYSdmwSDq8McGGdJWYPiCzq5bC62LvfNoPtJY9vkErVGfsEsSP180WDlzFnsZ9I9_XbD4O-yFSYA8E_gmgcMJz_OrGmM7z/p.jpeg" alt="Jin">
-            <div class="partner-info">
-                <h2>Justified by Jin</h2>
-                <p class="title">Social Justice Advocate</p>
-                <p>At JustCause, we believe that taking care of our planet is a responsibility we all share. As a proud partner in the realm of ocean conservancy, we're making waves to protect and preserve our majestic oceans for generations to come. With a heart for social justice and a deep connection to the environment, we're dedicated to raising awareness about the vital role oceans play in our ecosystem and advocating for sustainable practices. Join us on this inspiring journey towards a cleaner, healthier world. Together, let's dive into action and create a splash for ocean conservancy!</p>
-                <p>justifiedbyjin@gmail.com</p>
-                <button class="button">Contact</button>
-            </div>
+      <div class="partner">
+        <img src="https://i.ibb.co/7KrfKzx/371144126-3414751135457588-6256804775778619096-n.jpg" alt="Jin">
+        <div class="partner-info">
+          <h2>Justified by Jin</h2>
+          <p class="title">Social Justice Advocate</p>
+          <p>At JustCause, we believe that taking care of our planet is a responsibility we all share. As a proud partner in the realm of ocean conservancy, we're making waves to protect and preserve our majestic oceans for generations to come. With a heart for social justice and a deep connection to the environment, we're dedicated to raising awareness about the vital role oceans play in our ecosystem and advocating for sustainable practices. Join us on this inspiring journey towards a cleaner, healthier world. Together, let's dive into action and create a splash for ocean conservancy!</p>
+          <p>justifiedbyjin@gmail.com</p>
+          <button class="button">Contact</button>
         </div>
+      </div>
     </div>
-</div>                              
-    <footer>
-        &copy; 2023 Humanitarian Hackers | {G} Code
-    </footer>
+  </div>
+  <footer>
+    &copy; 2023 Humanitarian Hackers | {G} Code
+  </footer>
 </body>
+
 </html>
